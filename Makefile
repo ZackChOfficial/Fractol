@@ -1,7 +1,7 @@
 
 NAME = fractol
 
-MLX_LIB = -I /usr/local/include -L /usr/local/lib -lmlx -framework OpenGL -framework AppKit libft/libft.a
+MLX_LIB = -I /usr/local/include -L /usr/local/lib -lmlx -framework OpenGL -framework AppKit
 
 SRCS = burningship.c	\
 	   event_handler.c	\
@@ -30,7 +30,7 @@ FLAGS = -Wall -Wextra -Werror
 all : $(NAME)
 
 $(NAME): $(LIB) $(OBJ)
-	gcc $(FLAGS) $(MLX_LIB) $(OBJ) -o $@
+	gcc $(FLAGS) $(MLX_LIB) $(LIB) $(OBJ) -o $@
 
 $(OBJ): %.o : %.c
 	gcc $(FLAGS) -c $< -o $@
