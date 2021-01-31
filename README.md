@@ -38,7 +38,7 @@
 
 ## Demo ##
 
-[![Fractol](./img/youtube.jpg)](https://www.youtube.com/watch?v=CnOwNm52sso "Fractol | 1337")
+[![Fractol](./img/youtube.jpg)](https://www.youtube.com/watch?v=WVHs5iDvoGU "Fractol | 1337")
   
 
 ## Licence ##
